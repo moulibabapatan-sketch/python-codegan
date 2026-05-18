@@ -1,0 +1,42 @@
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+a=10
+b=10
+print(a is b)
+True
+a=20
+b=40
+print(a is b)
+False
+a=257
+>>> b=257
+>>> print(b is a)
+False
+>>> a=34
+>>> b=45
+>>> c=a+b
+>>> print(c)
+79
+>>> a=10
+>>> b=10
+>>> print(id(a),id(b))
+140724162155928 140724162155928
+>>> print(id(a))
+140724162155928
+>>> print(id(b))
+140724162155928
+>>> a=[1,3,4]
+>>> b=[10,11,56]
+>>> print(a==b)
+False
+>>> a=[34,65,78]
+>>> b=[34,65,70]
+>>> print(a==b)
+False
+>>> a=[34,65,78]
+... b=[34,65,78]
+SyntaxError: multiple statements found while compiling a single statement
+>>> a=[34,60,78]
+>>> b=[34,60,78]
+>>> print(a==b)
+True

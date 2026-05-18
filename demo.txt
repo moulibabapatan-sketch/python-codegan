@@ -1,0 +1,90 @@
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+num=30
+b=num+19
+print(b)
+49
+my number=123
+SyntaxError: invalid syntax
+my_number=123
+b=my_number+23
+print(b)
+146
+a=20
+b=50
+c=a+b
+print(a)
+20
+print(c)
+70
+num1=10
+num=20
+num=70
+num1=num2=num3
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    num1=num2=num3
+NameError: name 'num3' is not defined. Did you mean: 'num'?
+num1=20
+num2=40
+num3=70
+num1=20,num2=40,num3=70
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+num1,num2,num3=20,40,70
+print(num1)
+20
+print(num2)
+40
+print(num3)
+70
+print(num1,num2,num3)
+20 40 70
+print(num2,num1)
+40 20
+print(num1,num3)
+20 70
+num=20
+num1=20
+num2=20
+num3=60
+num1,num2,num3=20,20,30
+print(num1,num2,num3)
+20 20 30
+>>> print(num1,num2)
+20 20
+>>> n=n1=n2=n3=10
+>>> print(n,n1)
+10 10
+>>> id(num1)
+140706947290840
+>>> id(num3)
+140706947291160
+>>> a=30
+>>> b040
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    b040
+NameError: name 'b040' is not defined
+>>> a=30
+>>> b=40
+>>> del a
+>>> c=a+b
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    c=a+b
+NameError: name 'a' is not defined
+>>> n1=n2=n3=15
+>>> del n2
+>>> print(n3)
+15
+>>> print(n1)
+15
+>>> print(n2)
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    print(n2)
+NameError: name 'n2' is not defined. Did you mean: 'n'?
+>>> print(n3)
+15
+print(n1)
+
